@@ -13,7 +13,6 @@ public class Marks extends ExtendedEntity {
     @Column(name = "markNumber", nullable = false)
     private String markNumber;
 
-
     public String getMarkNumber() {
         return markNumber;
     }
